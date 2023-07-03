@@ -1,0 +1,24 @@
+.navs{
+    font-size: 22px;
+    font-weight: 500;
+    width: 60%;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   margin: auto;
+   border-bottom: 1px solid #00000066;
+}
+
+.but{
+    padding: 5px 14px;
+    font-size: 18px;
+    background: #00000000;
+    border: 0.5px solid rgba(0, 0, 0, 0.464);
+    border-radius: 4px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.but:hover{
+    background: #fafdff;
+}

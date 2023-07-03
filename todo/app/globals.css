@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.delete-btn{
+    font-size: 25px;
+    background: #00000000;
+    outline: none;
+    border: 0;
+    color: rgba(112, 0, 0, 0.804);
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.form{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.form input{
+    padding: 5px;
+    font-size: 18px;
+    width: 70%;
+    margin-right: 10px;
+}
+.form button{
+    padding: 6px 10px;
+    font-size: 18px;
+    background: rgb(0, 169, 0);
+    border: 0;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius: 2px;
+}
+.form button:hover{
+    background: rgb(0, 156, 0);
+}
